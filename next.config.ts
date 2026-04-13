@@ -1,3 +1,4 @@
+import path from "path";
 import type { NextConfig } from "next";
 
 const basePath = process.env.NODE_ENV === "production" ? "/Resume-Nextjs" : "";
@@ -10,7 +11,9 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   trailingSlash: true,
-  
+  turbopack: {
+    root: path.resolve(__dirname),
+  },
   env: {
     NEXT_PUBLIC_BASE_PATH: basePath,
   },
