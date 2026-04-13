@@ -1,0 +1,32 @@
+{
+  "workData": [
+    {
+      "image": "/images/work/work-img-1.png",
+      "title": "apex-website-design",
+      "client": "Glenn Braunstein",
+      "link":"https://apexaigrowthpartners.com/",
+      "slug": "apex-website-design"
+    },
+    {
+      "image": "/images/work/work-img-2.png",
+      "title": "AI-Flow App Design",
+      "client": "self-project",
+      "link":"https://ai-flow-app-phi.vercel.app/",
+      "slug": "ai-flow-app-design"
+    },
+    {
+      "image": "/images/work/work-img-3.png",
+      "title": "food-delivery-website",
+      "client": "self-project",
+      "link":"https://food-delivery-website-in-mern-stack.vercel.app/",
+      "slug": "food-delivery-website"
+    },
+    {
+      "image": "/images/work/work-img-4.png",
+      "title": "food-delivery-website-admin",
+      "client": "self-project",
+      "link":"https://food-delivery-website-admin-ruddy.vercel.app/",
+      "slug": "food-delivery-website-admin"
+    }
+  ]
+}

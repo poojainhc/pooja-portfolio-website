@@ -1,0 +1,113 @@
+{
+  "contactBar": {
+    "contactItems": [
+      {
+        "type": "email",
+        "label": "poojakhawle44@gmail.com",
+        "icon": "/images/icon/mail-icon.svg",
+        "link": "mailto:poojakhawle44@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+91-9552607565",
+        "icon": "/images/icon/call-icon.svg",
+        "link": "tel:+91-9552607565"
+      },
+      {
+        "type": "website",
+        "label": "www.mywebsite.com",
+        "icon": "/images/icon/web-icon.svg",
+        "link": "https://www.mywebsite.com"
+      }
+    ],
+    "socialItems": [
+      {
+        "platform": "github",
+        "icon": "/images/icon/git-icon.png",
+        "link": "https://github.com/poojainhc"
+      },
+      {
+        "platform": "linkedin",
+        "icon": "/images/icon/linkedin-icon.svg",
+        "link": "https://www.linkedin.com/in/pooja-jadhav-0560b71a1/"
+      },
+      {
+        "platform": "facebook",
+        "icon": "/images/icon/facebook-icon.svg",
+        "link": "https://www.facebook.com/pooja.khawle.3/"
+      }
+    ]
+  },
+  "educationData": {
+    "education": [
+      {
+        "title": "Bachelor of Engineering (BE)-2016 - 2020",
+        "description": "I completed my Bachelor of Engineering (B.E.) in Electronics and Communication Engineering from a college in Lonavala, Pune, Maharashtra. During my degree, I gained knowledge of core subjects like electronics, communication systems, and basic programming."
+      },
+      {
+        "title": "Diploma in ENTC - 2013 - 2016",
+        "description": "I completed my Diploma in Engineering, where I gained foundational knowledge in technical subjects such as electronics, basic programming, and problem-solving. During this time, I developed an interest in technology and practical learning through lab work and projects. This diploma helped me build a strong base in analytical thinking and technical concepts."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Figma",
+        "icon": "/images/home/education-skill/figma-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "MERN Stack",
+        "icon": "/images/home/education-skill/mernstack.png",
+        "rating": 5
+      },
+      {
+        "name": "mySQL",
+        "icon": "/images/home/education-skill/mysql.png",
+        "rating": 4
+      },
+      {
+        "name": "wordpress",
+        "icon": "/images/home/education-skill/wordpress-logo.jpg",
+        "rating": 4
+      },
+      {
+        "name": "Framer",
+        "icon": "/images/home/education-skill/framer-icon.svg",
+        "rating": 3
+      },
+      {
+        "name": "Git",
+        "icon": "/images/home/education-skill/git-icon.png",
+        "rating": 4
+      }
+    ]
+  },
+  "contactLinks": {
+    "socialLinks": [
+      {
+        "title": "github",
+        "href": "https://github.com/poojainhc"
+      },
+      {
+        "title": "Facebook",
+        "href": "https://www.facebook.com/pooja.khawle.3/"
+      },
+      {
+        "title": "LinkedIn",
+        "href": "https://www.linkedin.com/in/pooja-jadhav-0560b71a1/"
+      }
+    ],
+    "contactInfo": [
+      {
+        "type": "email",
+        "label": "poojakhawle44@gmail.com",
+        "link": "mailto:poojakhawle44@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+91-9552607565",
+        "link": "tel:+91-9552607565"
+      }
+    ]
+  }
+}
