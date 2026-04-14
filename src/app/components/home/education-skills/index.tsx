@@ -44,7 +44,7 @@ const EducationSkills = () => {
                 {educationData?.education?.map((value: any, index: any) => {
                   return (
                     <div key={index} className="flex items-start gap-6">
-                      <div className="no-print mt-2.5 w-3.5 h-3.5 rounded-full border-1 bg-white flex items-center justify-center border-black">
+                      <div className="no-print mt-2.5 w-3.5 h-3.5 rounded-full border bg-white flex items-center justify-center border-black">
                         <div className="w-1.5 h-1.5 rounded-full bg-black"></div>
                       </div>
                       <div className="flex-1 flex flex-col gap-2">
