@@ -84,15 +84,20 @@ const LatestWork = () => {
                     </div>
                     <div className="flex flex-col gap-0 xl:gap-2">
                       <div className="flex items-center justify-between">
-                        <Link href={`${value.link}`} className="hover:text-primary">
+                        <Link href={`${value.link}`} className="hover:text-primary hidden md:block" target="_blank" rel="noopener noreferrer">
                           <h5>{value?.title}</h5>
                         </Link>
-                        <Image
-                          src={getImgPath("/images/icon/right-arrow-icon.svg")}
-                          alt="right-arrow-icon"
-                          width={30}
-                          height={30}
-                        />
+                        <Link href={`${value.link}`} className="md:hidden" target="_blank" rel="noopener noreferrer">
+                          <h5>{value?.title}</h5>
+                        </Link>
+                        <Link href={`${value.link}`} target="_blank" rel="noopener noreferrer" className="cursor-pointer">
+                          <Image
+                            src={getImgPath("/images/icon/right-arrow-icon.svg")}
+                            alt="right-arrow-icon"
+                            width={30}
+                            height={30}
+                          />
+                        </Link>
                       </div>
                       <p>Client: {value?.client}</p>
                     </div>
